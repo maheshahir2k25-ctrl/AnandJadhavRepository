@@ -13,9 +13,9 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="1*"/>
                 <ColumnDefinition Width="2*"/>
-                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
             <!--<Button Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" Content="Button 1" Margin="10"/>-->
             <Border BorderBrush="Black" BorderThickness="2">
@@ -28,6 +28,7 @@
                     <Button Content="Button 1" Margin="10"></Button>
                 </StackPanel>
             </Border>
+            
             <Canvas Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" Background="Red" Height="400" Width="400">
                 <Canvas Height="100" Width="100" Top="0" Left="0" Background="Red"/>
                 <Canvas Height="100" Width="100" Top="100" Left="100" Background="Green"/>

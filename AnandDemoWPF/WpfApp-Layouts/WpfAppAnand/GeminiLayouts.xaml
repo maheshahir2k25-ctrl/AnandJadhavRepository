@@ -1,0 +1,44 @@
+﻿<Window x:Class="WpfAppAnand.GeminiLayouts"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppAnand"
+        mc:Ignorable="d"
+        Title="GeminiLayouts" Height="450" Width="800">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Background="LightGray" Padding="10">
+            <TextBlock Text="My Application Header" FontWeight="Bold" HorizontalAlignment="Center"/>
+        </Border>
+
+        <StackPanel Grid.Row="1" Grid.Column="0" Background="LightBlue">
+            <Button Content="Dashboard" Margin="5"/>
+            <Button Content="Settings" Margin="5"/>
+            <Button Content="Profile" Margin="5"/>
+        </StackPanel>
+
+        <Grid Grid.Row="1" Grid.Column="1" Background="White" Margin="10">
+            <TextBlock Text="This is the main work area. Resize the window to see how this area stretches while the sidebar stays fixed!" 
+                   TextWrapping="Wrap" 
+                   VerticalAlignment="Center" 
+                   HorizontalAlignment="Center"/>
+        </Grid>
+
+        <Border Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Background="DimGray">
+            <TextBlock Text="Ready" Foreground="White" VerticalAlignment="Center" Margin="5,0"/>
+        </Border>
+
+    </Grid>
+</Window>
