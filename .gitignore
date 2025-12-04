@@ -39,6 +39,8 @@ ScaffoldingReadMe.txt
 # Others
 ~$*
 *~
+*.vsidx
+*.tmp
 CodeCoverage/
 
 # MSBuild Binary and Structured Log
@@ -52,4 +54,4 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
-WPF Interview Preperation Questions/~WRL0514.tmp
+
