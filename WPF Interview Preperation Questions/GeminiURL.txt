@@ -1,0 +1,38 @@
+https://gemini.google.com/app/da49aeb7120c3977
+
+WPF Learning Roadmap
+Phase 1: The Foundation
+
+Lesson 1: Introduction to WPF & XAML (Current Lesson)
+
+Lesson 2: WPF Controls (Buttons, TextBoxes, Labels, etc.)
+
+Lesson 3: The Layout System (Grids, StackPanels, DockPanels)
+
+Phase 2: Connecting Data
+
+Lesson 4: Data Binding Basics (OneWay, TwoWay, DataContext)
+
+Lesson 5: INotifyPropertyChanged Interface (Updating the UI automatically)
+
+Lesson 6: Collections & ItemsControls (ListBox, ComboBox, DataGrid)
+
+Phase 3: Architecture (The Professional Standard)
+
+Lesson 7: The MVVM Pattern (Model-View-ViewModel separation)
+
+Lesson 8: ICommand & RelayCommand (Handling button clicks without code-behind)
+
+Phase 4: Look and Feel
+
+Lesson 9: Resources & Styles (Reusing colors and fonts)
+
+Lesson 10: Control Templates & Data Templates (Customizing structure)
+
+Lesson 11: Converters (Transforming data for the UI)
+
+Phase 5: Advanced Features
+
+Lesson 12: Dependency Properties (Creating custom bindable properties)
+
+Lesson 13: Animations & Behaviors
