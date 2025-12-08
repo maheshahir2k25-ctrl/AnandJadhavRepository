@@ -34,7 +34,7 @@ namespace DataBinding
             Products.Add(new Product { Name = "Nilesh", Price = 400, Category = "QA" });
             this.DataContext= this;
         }
-    }
+    } 
 
     public class Product
     {
