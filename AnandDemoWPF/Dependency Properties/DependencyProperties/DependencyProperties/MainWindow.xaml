@@ -1,0 +1,23 @@
+﻿<Window x:Class="DependencyProperties.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DependencyProperties"
+        xmlns:uc="clr-namespace:DependencyProperties.UserControls"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="20" Background="#EEEEEE">
+            <WrapPanel>
+                <uc:InfoCard Label="First Name" Value="Rahul" UserControlButtonClick="{Binding ViewModelButtonClick}"/>
+
+                <uc:InfoCard Label="Full Name From VM" 
+                        Value="{Binding FullName}" UserControlButtonClick="{Binding ViewModelButtonClick}"/>
+
+                <uc:InfoCard Label="Status" 
+                        Value="{Binding IsOnline}" UserControlButtonClick="{Binding ViewModelButtonClick}"/>
+            </WrapPanel>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="DependencyProperties.UserControls.StudentInfoCard"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:DependencyProperties.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Border BorderBrush="Gray" BorderThickness="1" CornerRadius="10" Padding="10" Margin="5" Background="White">
+        <StackPanel>
+            <!--Text="{Binding FirstName, ElementName=MyCard}"-->
+            <TextBlock Text="Student Name"  
+                  Background="AliceBlue" FontWeight="Bold" Foreground="Gray"/>
+            <!--Text="{Binding FirstNameValue, ElementName=MyCard}"-->
+            <TextBox Text="Mahesh Ahir" 
+                 Background="AliceBlue"  FontSize="20" FontWeight="Bold"/>
+            <TextBlock Text="Class"  
+      Background="AliceBlue" FontWeight="Bold" Foreground="Gray"/>
+            <!--Text="{Binding FirstNameValue, ElementName=MyCard}"-->
+            <TextBox Text="MCA VI Semester" 
+     Background="AliceBlue"  FontSize="20" FontWeight="Bold"/>
+            <TextBlock Text="Contact Number"  
+ Background="AliceBlue" FontWeight="Bold" Foreground="Gray"/>
+            <!--Text="{Binding FirstNameValue, ElementName=MyCard}"-->
+            <TextBox Text="7891122330" 
+Background="AliceBlue"  FontSize="20" FontWeight="Bold"/>
+            <TextBlock Text="Address"  
+ Background="AliceBlue" FontWeight="Bold" Foreground="Gray"/>
+            <!--Text="{Binding FirstNameValue, ElementName=MyCard}"-->
+            <TextBox Text="Bhugaon Pune" 
+Background="AliceBlue"  FontSize="20" FontWeight="Bold"/>
+            <Button Content="Save" Width="100" Margin="10"/>
+        </StackPanel>
+    </Border>
+</UserControl>

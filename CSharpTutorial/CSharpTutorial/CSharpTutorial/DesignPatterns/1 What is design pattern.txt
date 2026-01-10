@@ -1,0 +1,7 @@
+Design patterns are just tested solutions to common coding problems. They are not rules, but guidelines to write code that is easy to change and maintain.
+
+We generally group them into three buckets:
+
+Creational: How objects are created (e.g., "I need a specific object, but I don't want to worry about the details of how it's built.").
+Structural: How objects connect to each other (e.g., "I need these two distinct classes to work together.").
+Behavioral: How objects communicate (e.g., "I need this object to notify other objects when it changes.").

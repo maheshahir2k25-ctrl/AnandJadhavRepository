@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{BBF86B11-08C3-494B-92FE-55A8B34277D3}|WpfAppAnand\\WpfAppLayouts.csproj|solutionrelative:wpfappanand\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BBF86B11-08C3-494B-92FE-55A8B34277D3}|WpfAppAnand\\WpfAppLayouts.csproj|d:\\aanand\\git\\anandjadhavrepository\\ananddemowpf\\wpfapp-layouts\\wpfappanand\\geminilayouts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BBF86B11-08C3-494B-92FE-55A8B34277D3}|WpfAppAnand\\WpfAppLayouts.csproj|solutionrelative:wpfappanand\\geminilayouts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBF86B11-08C3-494B-92FE-55A8B34277D3}|WpfAppAnand\\WpfAppLayouts.csproj|d:\\aanand\\git\\anandjadhavrepository\\ananddemowpf\\wpfapp-layouts\\wpfappanand\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BBF86B11-08C3-494B-92FE-55A8B34277D3}|WpfAppAnand\\WpfAppLayouts.csproj|solutionrelative:wpfappanand\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BBF86B11-08C3-494B-92FE-55A8B34277D3}|WpfAppAnand\\WpfAppAnand.csproj|D:\\Aanand\\GIT\\AnandJadhavRepository\\AnandDemoWPF\\WpfApp-Layouts\\wpfappanand\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBF86B11-08C3-494B-92FE-55A8B34277D3}|WpfAppAnand\\WpfAppAnand.csproj|solutionrelative:wpfappanand\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,6 +35,30 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Aanand\\GIT\\AnandJadhavRepository\\AnandDemoWPF\\WpfApp-Layouts\\WpfAppAnand\\App.xaml",
+              "RelativeDocumentMoniker": "WpfAppAnand\\App.xaml",
+              "ToolTip": "D:\\Aanand\\GIT\\AnandJadhavRepository\\AnandDemoWPF\\WpfApp-Layouts\\WpfAppAnand\\App.xaml",
+              "RelativeToolTip": "WpfAppAnand\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-04T14:14:58.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GeminiLayouts.xaml",
+              "DocumentMoniker": "D:\\Aanand\\GIT\\AnandJadhavRepository\\AnandDemoWPF\\WpfApp-Layouts\\WpfAppAnand\\GeminiLayouts.xaml",
+              "RelativeDocumentMoniker": "WpfAppAnand\\GeminiLayouts.xaml",
+              "ToolTip": "D:\\Aanand\\GIT\\AnandJadhavRepository\\AnandDemoWPF\\WpfApp-Layouts\\WpfAppAnand\\GeminiLayouts.xaml",
+              "RelativeToolTip": "WpfAppAnand\\GeminiLayouts.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-04T14:12:07.146Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -42,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\Aanand\\GIT\\AnandJadhavRepository\\AnandDemoWPF\\WpfApp-Layouts\\WpfAppAnand\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WpfAppAnand\\MainWindow.xaml.cs",

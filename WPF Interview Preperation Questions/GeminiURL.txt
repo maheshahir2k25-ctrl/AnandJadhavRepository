@@ -43,3 +43,11 @@ Lesson 12: Dependency Properties (Creating custom bindable properties)
 Lesson 13: Animations & Behaviors
 
 ------------------------------------------------------------------------
+
+
+.db-shm
+.db-wal
+.suo
+.backup.json
+SpeechLib
+
